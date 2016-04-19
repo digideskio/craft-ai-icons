@@ -1,0 +1,12 @@
+{
+  "name": "craft-ai-icons",
+  "ascent": 448,
+  "descent": 64,
+  "glyphs": {
+    <% @glyphs.each do |name, value|
+        selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
+    "<%= selector[1..-1] %>": "\u<%= value[:codepoint].to_s(16) %>",
+    <% end %>
+    "end": null
+  }
+}

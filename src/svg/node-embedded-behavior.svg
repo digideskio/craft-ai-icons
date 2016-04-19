@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="node-embedded-behavior.svg"
+   viewBox="0 0 32 32"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg3354"
+   height="32"
+   width="32">
+  <defs
+     id="defs3356">
+    <inkscape:path-effect
+       effect="ruler"
+       id="path-effect3356"
+       is_visible="true"
+       unit="px"
+       mark_distance="20"
+       mark_length="14"
+       minor_mark_length="7"
+       major_mark_steps="5"
+       shift="0"
+       offset="0"
+       mark_dir="left"
+       border_marks="both" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:snap-tangential="true"
+     inkscape:snap-perpendicular="true"
+     inkscape:snap-nodes="false"
+     inkscape:snap-others="false"
+     inkscape:snap-to-guides="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="806"
+     inkscape:window-width="1440"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     showgrid="true"
+     inkscape:current-layer="layer1"
+     inkscape:cy="9.5379192"
+     inkscape:cx="15.673607"
+     inkscape:zoom="18.916819"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3362" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3359">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       style="fill:#000000"
+       d="m 16,2 0,6 1.085938,0 c -1.144815,1.847756 -3.087647,3.17205 -4.212891,5 L 10,13 l 0,6 1.085938,0 C 9.940503,20.848758 7.9905964,22.169847 6.8671875,24 L 4,24 l 0,6 6,0 0,-6 -1.1054688,0 C 9.993822,22.250511 11.853968,20.988455 13,19.263672 14.146032,20.988455 16.006178,22.250511 17.105469,24 L 16,24 l 0,6 6,0 0,-6 -2.867188,0 c -1.123408,-1.830153 -3.073313,-3.151242 -4.21875,-5 L 16,19 16,13 14.894531,13 C 15.993822,11.250511 17.853968,9.9884549 19,8.2636719 20.146032,9.9884549 22.006178,11.250511 23.105469,13 L 22,13 l 0,6 6,0 0,-6 -2.873047,0 C 24.00171,11.17205 22.058878,9.847756 20.914062,8 L 22,8 22,2 Z"
+       id="rect3373"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>

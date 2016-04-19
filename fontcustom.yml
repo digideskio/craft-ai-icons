@@ -1,0 +1,34 @@
+# =============================================================================
+# Font Custom Configuration
+#   This file should live in the directory where you run `fontcustom compile`.
+#   For more info, visit <http://fontcustom.github.io/fontcustom/>.
+# =============================================================================
+
+font_name: craft-ai-icons
+css_selector: .craft-ai-{{glyph}}
+no_hash: true
+
+input:
+  vectors: ./src/svg
+  templates: ./src/templates
+
+output:
+  fonts: ./fonts
+  preview: ./
+  craft-ai-icons.scss: ./scss
+  craft-ai-icons.less: ./less
+  craft-ai-icons.json: ./
+
+preprocessor_path: ./fonts
+
+templates:
+- preview
+- craft-ai-icons.scss
+- craft-ai-icons.less
+- craft-ai-icons.json
+
+font_design_size: 32
+font_em: 512
+font_ascent: 448
+font_descent: 64
+autowidth: false
