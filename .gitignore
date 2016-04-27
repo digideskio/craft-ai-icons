@@ -1,3 +1,10 @@
+# Build artifacts
 .fontcustom-manifest.json
+_out
+scss
+fonts
+less
+craft-ai-icons-preview.html
+craft-ai-icons.json
 
 npm-debug.log
