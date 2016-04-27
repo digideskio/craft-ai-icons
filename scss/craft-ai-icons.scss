@@ -28,6 +28,7 @@ $craft-ai-icons-font-path: "./fonts" !default;
 
 [data-icon]:before,
 .craft-ai-bt:before,
+.craft-ai-chip:before,
 .craft-ai-darth-stanley:before,
 .craft-ai-knowledge:before,
 .craft-ai-node-action:before,
@@ -67,6 +68,7 @@ $craft-ai-icons-font-path: "./fonts" !default;
 }
 
 .craft-ai-bt:before { content: "\f100"; }
+.craft-ai-chip:before { content: "\f119"; }
 .craft-ai-darth-stanley:before { content: "\f101"; }
 .craft-ai-knowledge:before { content: "\f102"; }
 .craft-ai-node-action:before { content: "\f103"; }
@@ -93,6 +95,7 @@ $craft-ai-icons-font-path: "./fonts" !default;
 .craft-ai-stanley:before { content: "\f118"; }
 
 $font-craft-ai-icons-bt: "\f100";
+$font-craft-ai-icons-chip: "\f119";
 $font-craft-ai-icons-darth-stanley: "\f101";
 $font-craft-ai-icons-knowledge: "\f102";
 $font-craft-ai-icons-node-action: "\f103";
