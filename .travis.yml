@@ -1,0 +1,15 @@
+language: node_js
+sudo: required
+before_install: npm prune
+before_cache: npm prune
+install: npm run install_dependencies_unix
+script: npm run build
+deploy:
+  provider: npm
+  email: ops@craft.ai
+  api_key:
+    secure: N9dToo3ZaB4kdGfHDnhfqTPgF4cOdHbObfOeU4NoiGj3PBjfmYc5/uvKvM5khxoRyG/t5w1CLLhgVUWAd9OTe+dPQBls2XAPLDD2GJuyn/HRToAOl6myZ5Cdpqc1Afutj7BR9c+XRTE7+c5r3zO4HfOwensp/09TcXdVtAYSrkprfyU52CW2VNu/eDIEG1YYR5siNo0Fxn3KKVXo9xwAAKNJKGmNOMz4UJtBgom6h/px/Cj4RnoBfKOurOdJdvSNCuaWgP6GVa39yPba8BLDZ/sHGQXXq+6TPsI20WAbYtSbDHl1amsEHQ+1hYBDRLVvNw6aEK9BhAoS58FarbE3gvxksU56FYoGdWKMM+O1onVGsKEha7Cwz3pohqc8Xs0AJxzy7Wm18wKeY+UQI6m0/f4rwqcW+7bv84SloVrckR1aXVxw/OYknBXXc0ttdWEZRI4Iq4pwcZleSqoHW/qrM7Rv7H4un+nGoT+fMyokx7xfhNvwuPlmQIz6FOqRHANtmOUq6etvy3YqcjubPax9vVy0sfGF6Z6lmXGHYbC7yiyJnM+I808fAjAxA7mDQUUrZoJRTrGIaY1r0GcyigRuemBI5zxnv+cd3kN1vKkBT5NsbZoUctOwy+n5hwIPHDftddgkC2b7JZUBV3pYD/X2677c/70NyZK8yjRTa7NbSqA=
+  on:
+    tags: true
+    repo: craft-ai/craft-ai-icons
+  skip_cleanup: true
