@@ -5,7 +5,7 @@ before_cache: npm prune
 install: npm run install_dependencies_unix
 script: npm run build
 deploy:
-  provider: npm
+- provider: npm
   email: ops@craft.ai
   api_key:
     secure: N9dToo3ZaB4kdGfHDnhfqTPgF4cOdHbObfOeU4NoiGj3PBjfmYc5/uvKvM5khxoRyG/t5w1CLLhgVUWAd9OTe+dPQBls2XAPLDD2GJuyn/HRToAOl6myZ5Cdpqc1Afutj7BR9c+XRTE7+c5r3zO4HfOwensp/09TcXdVtAYSrkprfyU52CW2VNu/eDIEG1YYR5siNo0Fxn3KKVXo9xwAAKNJKGmNOMz4UJtBgom6h/px/Cj4RnoBfKOurOdJdvSNCuaWgP6GVa39yPba8BLDZ/sHGQXXq+6TPsI20WAbYtSbDHl1amsEHQ+1hYBDRLVvNw6aEK9BhAoS58FarbE3gvxksU56FYoGdWKMM+O1onVGsKEha7Cwz3pohqc8Xs0AJxzy7Wm18wKeY+UQI6m0/f4rwqcW+7bv84SloVrckR1aXVxw/OYknBXXc0ttdWEZRI4Iq4pwcZleSqoHW/qrM7Rv7H4un+nGoT+fMyokx7xfhNvwuPlmQIz6FOqRHANtmOUq6etvy3YqcjubPax9vVy0sfGF6Z6lmXGHYbC7yiyJnM+I808fAjAxA7mDQUUrZoJRTrGIaY1r0GcyigRuemBI5zxnv+cd3kN1vKkBT5NsbZoUctOwy+n5hwIPHDftddgkC2b7JZUBV3pYD/X2677c/70NyZK8yjRTa7NbSqA=
@@ -13,3 +13,11 @@ deploy:
     tags: true
     repo: craft-ai/craft-ai-icons
   skip_cleanup: true
+- provider: script
+  script: npm run gh_deploy
+  on:
+    tags: true
+    repo: craft-ai/craft-ai-icons
+env:
+  global:
+    secure: A6XwYnPWBHOiJSqH52ak/zvEH53Q11IJ0LeP6PWL7UJAgzGwkMdZMS0DOhM18zWU/sYJCtDbMZDtkemYVuH1BeKel2DFicIpMNrzT0bVAcvkXLY78gwSjOu9giUkj/lAhVmN2DfKvpFQMun8Wqv5gN6oczVfXfrACOiZ9HzFcye3busy3jUM9+gr0Vl9F2O4Zm6PWNsYrj+Td3iMzpk8MdeSkHZrZM82HyQ4jMM9ODBJXU20UKBJ4vfs+BT5CM1TTWXHSOpYo5ChPd8cJO1zkEYJ0hmGTkVkGpYy1+S1XsQ1DpYK/xT6Ahd46wjeRJ78mSbMIGaymWUBwvOw9lhSrun7GyDrRDEIDk2c9sJLy2qPmHSF2UpwZPboIGBLfYnCrU4WM+9kUOoiMDVYQDzPNfHgiKt818HeSVTmHiXVImWIsiRACv9jXOq3WQQafzoQtR3cpyLSt4CqP9haaSDYtwFIteITe1nYKCtwsZb+Tr1ef2Pi+sd30Kt3CiyvIn+pwRuNYb8yN9fYa1iWXwy6juHlBuOLa4x3k+UwzVFy68bKK1C5RCg0p/7ePsRj95Bif3sqxUITENjeW4xHvjLHw0qy5NpgW7keNfIvW/HCy7RAIAcuRJ3DBveF9AyLDndwkLKAMyiM05FeZQHdi4aKO5aYkVt6f14pHFas+kzIYjM=
