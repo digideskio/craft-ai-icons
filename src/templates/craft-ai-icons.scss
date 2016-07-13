@@ -20,7 +20,7 @@ $<%= font_name %>-font-path: "<%= @options[:output][:fonts] %>" !default;
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "craft-ai-icons";
-    src: url("$<%= font_name %>-font-path/craft-ai-icons.svg#craft-ai-icons") format("svg");
+    src: url("#{$<%= font_name %>-font-path}/<%= font_name %>.svg#<%= font_name %>") format("svg");
   }
 }
 
