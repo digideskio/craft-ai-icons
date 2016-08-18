@@ -1,0 +1,61 @@
+{
+  "name": "craft-ai-icons",
+  "ascent": 448,
+  "descent": 64,
+  "glyphs": {
+    
+    "craft-ai-bt": "\uf100",
+    
+    "craft-ai-chip": "\uf101",
+    
+    "craft-ai-darth-stanley": "\uf102",
+    
+    "craft-ai-knowledge": "\uf103",
+    
+    "craft-ai-node-action": "\uf104",
+    
+    "craft-ai-node-action-google-calendar": "\uf105",
+    
+    "craft-ai-node-action-google-mail": "\uf106",
+    
+    "craft-ai-node-action-google-map": "\uf107",
+    
+    "craft-ai-node-bg": "\uf108",
+    
+    "craft-ai-node-condition": "\uf109",
+    
+    "craft-ai-node-custom": "\uf10a",
+    
+    "craft-ai-node-embedded-behavior": "\uf10b",
+    
+    "craft-ai-node-failure": "\uf10c",
+    
+    "craft-ai-node-not": "\uf10d",
+    
+    "craft-ai-node-parallel": "\uf10e",
+    
+    "craft-ai-node-priority-selector": "\uf10f",
+    
+    "craft-ai-node-random-selector": "\uf110",
+    
+    "craft-ai-node-receive-message": "\uf111",
+    
+    "craft-ai-node-send-message": "\uf112",
+    
+    "craft-ai-node-sequence": "\uf113",
+    
+    "craft-ai-node-set": "\uf114",
+    
+    "craft-ai-node-subscribe-message": "\uf115",
+    
+    "craft-ai-node-success": "\uf116",
+    
+    "craft-ai-node-until": "\uf117",
+    
+    "craft-ai-palette-menu": "\uf118",
+    
+    "craft-ai-stanley": "\uf119",
+    
+    "end": null
+  }
+}

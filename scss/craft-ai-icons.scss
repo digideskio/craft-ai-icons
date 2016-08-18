@@ -1,0 +1,122 @@
+//
+//  craft ai icon font by craft ai - contact@craft.ai
+//  Font available under SIL OFL 1.1
+//  Copyright (c) 2016 craft ai (contact@craft.ai)
+//
+
+$craft-ai-icons-font-path: "./fonts" !default;
+
+@font-face {
+  font-family: "craft-ai-icons";
+  src: url("#{$craft-ai-icons-font-path}/craft-ai-icons.eot");
+  src: url("#{$craft-ai-icons-font-path}/craft-ai-icons.eot?#iefix") format("embedded-opentype"),
+       url("#{$craft-ai-icons-font-path}/craft-ai-icons.woff") format("woff"),
+       url("#{$craft-ai-icons-font-path}/craft-ai-icons.ttf") format("truetype"),
+       url("#{$craft-ai-icons-font-path}/craft-ai-icons.svg#craft-ai-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "craft-ai-icons";
+    src: url("#{$craft-ai-icons-font-path}/craft-ai-icons.svg#craft-ai-icons") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.craft-ai-bt:before,
+.craft-ai-chip:before,
+.craft-ai-darth-stanley:before,
+.craft-ai-knowledge:before,
+.craft-ai-node-action:before,
+.craft-ai-node-action-google-calendar:before,
+.craft-ai-node-action-google-mail:before,
+.craft-ai-node-action-google-map:before,
+.craft-ai-node-bg:before,
+.craft-ai-node-condition:before,
+.craft-ai-node-custom:before,
+.craft-ai-node-embedded-behavior:before,
+.craft-ai-node-failure:before,
+.craft-ai-node-not:before,
+.craft-ai-node-parallel:before,
+.craft-ai-node-priority-selector:before,
+.craft-ai-node-random-selector:before,
+.craft-ai-node-receive-message:before,
+.craft-ai-node-send-message:before,
+.craft-ai-node-sequence:before,
+.craft-ai-node-set:before,
+.craft-ai-node-subscribe-message:before,
+.craft-ai-node-success:before,
+.craft-ai-node-until:before,
+.craft-ai-palette-menu:before,
+.craft-ai-stanley:before {
+  display: inline-block;
+  font-family: "craft-ai-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.craft-ai-bt:before { content: "\f100"; }
+.craft-ai-chip:before { content: "\f101"; }
+.craft-ai-darth-stanley:before { content: "\f102"; }
+.craft-ai-knowledge:before { content: "\f103"; }
+.craft-ai-node-action:before { content: "\f104"; }
+.craft-ai-node-action-google-calendar:before { content: "\f105"; }
+.craft-ai-node-action-google-mail:before { content: "\f106"; }
+.craft-ai-node-action-google-map:before { content: "\f107"; }
+.craft-ai-node-bg:before { content: "\f108"; }
+.craft-ai-node-condition:before { content: "\f109"; }
+.craft-ai-node-custom:before { content: "\f10a"; }
+.craft-ai-node-embedded-behavior:before { content: "\f10b"; }
+.craft-ai-node-failure:before { content: "\f10c"; }
+.craft-ai-node-not:before { content: "\f10d"; }
+.craft-ai-node-parallel:before { content: "\f10e"; }
+.craft-ai-node-priority-selector:before { content: "\f10f"; }
+.craft-ai-node-random-selector:before { content: "\f110"; }
+.craft-ai-node-receive-message:before { content: "\f111"; }
+.craft-ai-node-send-message:before { content: "\f112"; }
+.craft-ai-node-sequence:before { content: "\f113"; }
+.craft-ai-node-set:before { content: "\f114"; }
+.craft-ai-node-subscribe-message:before { content: "\f115"; }
+.craft-ai-node-success:before { content: "\f116"; }
+.craft-ai-node-until:before { content: "\f117"; }
+.craft-ai-palette-menu:before { content: "\f118"; }
+.craft-ai-stanley:before { content: "\f119"; }
+
+$font-craft-ai-icons-bt: "\f100";
+$font-craft-ai-icons-chip: "\f101";
+$font-craft-ai-icons-darth-stanley: "\f102";
+$font-craft-ai-icons-knowledge: "\f103";
+$font-craft-ai-icons-node-action: "\f104";
+$font-craft-ai-icons-node-action-google-calendar: "\f105";
+$font-craft-ai-icons-node-action-google-mail: "\f106";
+$font-craft-ai-icons-node-action-google-map: "\f107";
+$font-craft-ai-icons-node-bg: "\f108";
+$font-craft-ai-icons-node-condition: "\f109";
+$font-craft-ai-icons-node-custom: "\f10a";
+$font-craft-ai-icons-node-embedded-behavior: "\f10b";
+$font-craft-ai-icons-node-failure: "\f10c";
+$font-craft-ai-icons-node-not: "\f10d";
+$font-craft-ai-icons-node-parallel: "\f10e";
+$font-craft-ai-icons-node-priority-selector: "\f10f";
+$font-craft-ai-icons-node-random-selector: "\f110";
+$font-craft-ai-icons-node-receive-message: "\f111";
+$font-craft-ai-icons-node-send-message: "\f112";
+$font-craft-ai-icons-node-sequence: "\f113";
+$font-craft-ai-icons-node-set: "\f114";
+$font-craft-ai-icons-node-subscribe-message: "\f115";
+$font-craft-ai-icons-node-success: "\f116";
+$font-craft-ai-icons-node-until: "\f117";
+$font-craft-ai-icons-palette-menu: "\f118";
+$font-craft-ai-icons-stanley: "\f119";
